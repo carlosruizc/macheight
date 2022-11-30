@@ -50,7 +50,7 @@ version with input prompt for arguments
 
 version with inline arguments
 ```bash
-node macheight_inline.js 1,9,5,0,20,-4,12,16,7 12
+> node macheight_inline.js 1,9,5,0,20,-4,12,16,7 12
 + 5,7
 + 0,12
 + -4,16
