@@ -24,7 +24,7 @@ Install dependencies
   npm install prompt-sync
 ```
 
-Start the program:
+# Start the program:
 ## version with input prompt for arguments
 
 ```bash
