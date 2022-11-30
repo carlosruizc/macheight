@@ -24,17 +24,23 @@ Install dependencies
   npm install prompt-sync
 ```
 
-Start the program
+Start the program:
+version with input prompt for arguments
 
 ```bash
   node macheight.js
 ```
+version with inline arguments
 
+```bash
+  node macheight_inline.js
+```
 
 ## Examples
 
+version with input prompt for arguments
 ```bash
-> node app.js
+> node macheight.js
 > Input the list of numbers: 1,9,5,0,20,-4,12,16,7
 > Input the target value: 12
 + 5,7
@@ -42,3 +48,10 @@ Start the program
 + -4,16
 ```
 
+version with inline arguments
+```bash
+node macheight_inline.js 1,9,5,0,20,-4,12,16,7 12
++ 5,7
++ 0,12
++ -4,16
+```
