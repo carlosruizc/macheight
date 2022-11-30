@@ -1,4 +1,5 @@
-const prompt = require('prompt-sync');
+const prompt = require('prompt-sync')({ sigint: true });
+
 let inputNumbers = prompt('Input the list of numbers: ');
 let inputTarget = prompt('Input the target value: ');
 numbers = inputNumbers.split(',').map(function (string) {
