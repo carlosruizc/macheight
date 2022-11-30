@@ -27,7 +27,7 @@ Install dependencies
 Start the program
 
 ```bash
-  npm macheight.js
+  node macheight.js
 ```
 
 
