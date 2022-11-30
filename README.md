@@ -25,12 +25,12 @@ Install dependencies
 ```
 
 Start the program:
-version with input prompt for arguments
+## version with input prompt for arguments
 
 ```bash
   node macheight.js
 ```
-version with inline arguments
+## version with inline arguments
 
 ```bash
   node macheight_inline.js
