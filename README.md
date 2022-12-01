@@ -25,14 +25,17 @@ Install dependencies
 ```
 
 Start the program
-
+## version with input prompt for arguments
 ```bash
-  npm macheight.js
+  node macheight.js
 ```
+## version with inline arguments
+```bash
+node macheight_inline.js
+```
+# Examples
 
-
-## Examples
-
+## version with input prompt for arguments
 ```bash
 > node app.js
 > Input the list of numbers: 1,9,5,0,20,-4,12,16,7
@@ -41,4 +44,10 @@ Start the program
 + 0,12
 + -4,16
 ```
-
+## version with inline arguments
+```bash
+> node macheight_inline.js 1,9,5,0,20,-4,12,16,7 12
++ 5,7
++ 0,12
++ -4,16
+```
