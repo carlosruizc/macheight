@@ -18,7 +18,7 @@ Go to the project directory
   cd macheight
 ```
 
-Install dependencies
+Install dependencies (only for version with input prompt)
 
 ```bash
   npm install prompt-sync
